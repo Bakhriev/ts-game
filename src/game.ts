@@ -9,6 +9,7 @@ export class Game {
 
 	constructor(canvas: HTMLCanvasElement) {
 		this.canvas = canvas;
+		// @ts-ignore
 		this.ctx = canvas.getContext("2d");
 		this.canvas.width = window.innerWidth;
 		this.canvas.height = 720;

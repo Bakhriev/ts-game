@@ -33,6 +33,7 @@ export class Player {
 
 	draw() {
 		this.game.ctx.drawImage(
+			// @ts-ignore
 			this.image,
 			this.x,
 			this.y,

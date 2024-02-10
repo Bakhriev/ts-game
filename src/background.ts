@@ -33,6 +33,7 @@ export class Background {
 
 	draw() {
 		this.game.ctx.drawImage(
+			// @ts-ignore
 			this.image,
 			this.x,
 			this.y,
@@ -40,6 +41,7 @@ export class Background {
 			this.height
 		);
 		this.game.ctx.drawImage(
+			// @ts-ignore
 			this.image2,
 			this.x + this.width,
 			this.y,
